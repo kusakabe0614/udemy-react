@@ -1,8 +1,8 @@
 function App() {
+  const greeting = 'Hi'
+  const dom = <div className="App">{greeting}</div>
   return (
-    <div className="App">
-      <h1>Hello World</h1>
-    </div>
+    dom
   );
 }
 
